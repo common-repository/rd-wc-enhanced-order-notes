@@ -1,0 +1,112 @@
+/* List view and Settings */
+.rdwceon-upgrade-list {
+    list-style-type: disc; 
+    list-style-position: inside; 
+    padding-left: 2em;
+}
+
+.rdwceon-template-notes-table .required {
+    color: #d63638;
+}
+
+.rdwceon-template-category-remove {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #d63638;
+}
+
+.rdwceon-template-edit {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.rdwceon-template-remove {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #d63638 !important;
+}
+
+table.rdwceon_templates {
+    position: relative
+}
+
+table.rdwceon_templates td,table.rdwceon_templates th {
+    display: table-cell!important;
+    padding: 1em!important;
+    vertical-align: top;
+    line-height: 1.75em
+}
+
+table.rdwceon_templates td {
+    vertical-align: middle
+}
+
+table.rdwceon_templates tr:nth-child(odd) td {
+    background: #f9f9f9
+}
+
+table.rdwceon_templates td.rdwceon-templates-table-title {
+    font-weight: 700
+}
+
+table.rdwceon_templates .settings {
+    text-align: right
+}
+
+table.rdwceon_templates .default,table.rdwceon_templates .radio,table.rdwceon_templates .status {
+    text-align: center
+}
+
+table.rdwceon_templates .default .tips,table.rdwceon_templates .radio .tips,table.rdwceon_templates .status .tips {
+    margin: 0 auto
+}
+
+table.rdwceon_templates .default input,table.rdwceon_templates .radio input,table.rdwceon_templates .status input {
+    margin: 0
+}
+
+table.rdwceon_templates td button {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    display: block;
+    margin: 0;
+    background: 0 0 !important;
+    border: none !important;
+    box-shadow: none;
+    color: #82878c;
+    cursor: pointer;
+    outline: 0
+}
+
+table.rdwceon_templates td button::before {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    font: normal 20px/23px dashicons;
+    text-align: center;
+    text-indent: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+table.rdwceon_templates td button:focus,
+table.rdwceon_templates td button:hover {
+    color: #191e23
+}
+
+/** Edit Order **/
+.add_note #rdwceon_order_note_template {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.add_note #rdwceon_order_note_template .select2-selection--single {
+    height: 30px !important;
+}

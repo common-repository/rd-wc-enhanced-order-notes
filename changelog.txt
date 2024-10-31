@@ -1,0 +1,14 @@
+*** RD Order Note Templates for WooCommerce Changelog ***
+
+= 1.1.0 =
+*Release Date - 12 July 2024*
+
+* Fix width of select box on some devices
+* Add option to keep templates on uninstall
+* Added extra validation checks
+* Updated compatibility
+
+= 1.0.0 =
+*Release Date - 27 April 2024*
+
+* Release to WordPress repository
